@@ -1,40 +1,27 @@
 {
-    "terminal.integrated.fontSize": 22,
-    "editor.fontSize": 22,
-    "editor.wordWrap": "on",
-    "editor.fontLigatures": true,
-    "editor.lineHeight": 38,
-    "prettier.arrowParens": "always",
-    "workbench.startupEditor": "newUntitledFile",
-    "editor.mouseWheelZoom": true,
-    "files.autoSave": "off",
-    "workbench.iconTheme": "material-icon-theme",
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.formatOnSave": true,
-    "liveServer.settings.donotShowInfoMsg": true,
-    
-    "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
-    
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
-    "liveSassCompile.settings.formats": [
-        {
-            "format": "expanded",
-            "extensionName": ".css",
-            "savePath": "/build/css"
-        }
-    ],
-    "editor.cursorBlinking": "expand",
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "terminal.integrated.lineHeight": 1.2,
-    "workbench.colorTheme": "Dracula"
+  "window.zoomLevel": 0.4,
+  "terminal.integrated.fontSize": 18,
+  "editor.fontSize": 18,
+  "editor.wordWrap": "on",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 34,
+  "prettier.arrowParens": "always",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.mouseWheelZoom": true,
+  "files.autoSave": "afterDelay",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnSave": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "liveSassCompile.settings.formats": [
+    { "format": "expanded", "extensionName": ".css", "savePath": "/build/css" }
+  ],
+  "editor.cursorBlinking": "expand",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.lineHeight": 1.2,
+  "workbench.colorTheme": "Dracula",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "liveServer.settings.donotVerifyTags": true,
+  "[python]": { "editor.defaultFormatter": "ms-python.python" }
 }
