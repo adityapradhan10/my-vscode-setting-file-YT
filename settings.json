@@ -1,27 +1,42 @@
 {
-  "window.zoomLevel": 0.4,
-  "terminal.integrated.fontSize": 18,
-  "editor.fontSize": 18,
+  "terminal.integrated.fontSize": 16,
+  "editor.fontSize": 16,
   "editor.wordWrap": "on",
   "editor.fontLigatures": true,
-  "editor.lineHeight": 34,
-  "prettier.arrowParens": "always",
+  "editor.lineHeight": 40,
+  "editor.tabSize": 4,
   "workbench.startupEditor": "newUntitledFile",
-  "editor.mouseWheelZoom": true,
-  "files.autoSave": "afterDelay",
   "workbench.iconTheme": "material-icon-theme",
-  "editor.formatOnSave": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
-  "liveSassCompile.settings.formats": [
-    { "format": "expanded", "extensionName": ".css", "savePath": "/build/css" }
-  ],
   "editor.cursorBlinking": "expand",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.lineHeight": 1.2,
-  "workbench.colorTheme": "Dracula",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "switch:command",
+    "stash-push:command"
+  ],
+  "window.confirmBeforeClose": "always",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "window.commandCenter": false,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "underline",
+  "window.zoomLevel": -1,
+  "workbench.colorTheme": "Dracula",
+  "editor.fontFamily": "Fira Code",
+  "prettier.arrowParens": "always",
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+  "liveSassCompile.settings.formats": [
+    { "format": "expanded", "extensionName": ".css", "savePath": "/build/css" }
+  ],
   "liveServer.settings.donotVerifyTags": true,
-  "[python]": { "editor.defaultFormatter": "ms-python.python" }
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnType": true
+  },
+  "git.confirmSync": false,
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
